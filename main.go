@@ -22,6 +22,7 @@ func main() {
 
 	if err != nil {
 		fmt.Println("Ошибка,ввод данных:\n", err)
+		panic(nil)
 		return
 	}
 
@@ -31,6 +32,7 @@ func main() {
 
 		if err1 != nil {
 			fmt.Println("Ошибка:\n", err1)
+			panic(nil)
 			return
 		}
 
@@ -38,6 +40,7 @@ func main() {
 
 		if err2 != nil {
 			fmt.Println("Ошибка:\n", err2)
+			panic(nil)
 			return
 		}
 
@@ -45,6 +48,7 @@ func main() {
 
 		if err3 != nil {
 			fmt.Println("Ошибка:\n", err3)
+			panic(nil)
 			return
 
 		} else {
@@ -61,6 +65,7 @@ func main() {
 
 		if err1 != nil {
 			fmt.Println("Ошибка:\n", err1)
+			panic(nil)
 			return
 
 		} else {
@@ -69,6 +74,7 @@ func main() {
 
 			if err2 != nil {
 				fmt.Println("Ошибка:\n", err2)
+				panic(nil)
 				return
 			}
 			fmt.Println("Ответ: ", final)
